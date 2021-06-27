@@ -1,0 +1,5 @@
+#!/bin/sh
+
+TARGET_PAGE=$1
+git grep -l "${TARGET_PAGE}" content/ja/docs/ | xargs gsed -i "s#(${TARGET_PAGE}#(/ja${TARGET_PAGE}#g"
+

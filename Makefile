@@ -1,2 +1,2 @@
 install:
-	cp -p kji /usr/local/bin/
+	cp -p kji kjr /usr/local/bin/
